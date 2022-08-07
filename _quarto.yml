@@ -1,0 +1,73 @@
+project:
+  type: book
+  output-dir: _book
+book:
+  title: "Introduction to Medical Statistics with Jamovi"
+  subtitle: "1st Edition"
+  author: 
+    - "Konstantinos I. Bougioukas, PhD"
+  date: "August 2, 2022"
+  cover-image: images/cover3.png
+  repo-url: https://github.com/bougioukas/MedStatsJamovi3
+  sharing: [twitter, facebook]
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - lab1.qmd
+    - study_designs.qmd
+    - lab2.qmd
+    - probability.qmd
+    - lab3.qmd
+    - normal.qmd
+    - lab4.qmd
+    - inference.qmd
+    - lab5.qmd
+    - two_samples.qmd
+    - lab6.qmd
+    - more_samples.qmd
+    - lab7.qmd
+    - categorical.qmd
+    - lab8.qmd
+    - correlation.qmd
+    - lab9.qmd
+    - linear.qmd
+    - lab10.qmd
+    - reporting.qmd
+    - references.qmd
+    
+  
+  page-footer: 
+    left: "Copyright 2022, Konstantinos I. Bougioukas" 
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    link-external-newwindow: true
+    code-link: true
+  pdf:
+    documentclass: scrbook
+    colorlinks: true
+    linkcolor: "blue"
+    filecolor: "red"
+    citecolor: "green"
+    urlcolor: "blue"
+    toccolor: "gray"
+    lof: true
+    lot: true
+    linestretch: 1.4
+    fontsize: 14pt
+    mainfont: "Roboto"
+    fig-pos: 'ht'
+    number-depth: 1
+    toc-depth: 2
+    geometry: 
+      - margin=0.90in
+      - top = 1.25in
+      - bottom= 1.25in 
+    include-in-header: 
+      text: |   
+        \usepackage{fontawesome5}
+        \raggedbottom
+editor: visual
