@@ -60,7 +60,7 @@
     "href": "introduction.html#displaying-numerical-data",
     "title": "1  Introduction",
     "section": "\n1.7 Displaying Numerical Data",
-    "text": "1.7 Displaying Numerical Data\nThe **sample mean* is calculated as follows:\n\nMean: arithmetic average\n\nPopulation mean \\(\\mu\\) is the long-run average (let \\(n \\rightarrow \\infty\\) in computing \\(\\bar{x}\\)) + center of mass of the data (balancing point) + highly influenced by extreme values even if they are highly atypical\n\nMedian: middle sorted value, i.e., value such that \\(\\frac{1}{2}\\) of the values are below it and above it\n\nalways descriptive\nunaffected by extreme values\n\n\n\n\n\n\n\nFarndon, Lisa J, Wesley Vernon, Stephen J Walters, Simon Dixon, Mike Bradburn, Michael Concannon, and Julia Potter. 2013. “The Effectiveness of Salicylic Acid Plasters Compared with ‘Usual’ Scalpel Debridement of Corns: A Randomised Controlled Trial.” Journal of Foot and Ankle Research 6 (1): 40. https://doi.org/10.1186/1757-1146-6-40."
+    "text": "1.7 Displaying Numerical Data\n\n\n\n\nFarndon, Lisa J, Wesley Vernon, Stephen J Walters, Simon Dixon, Mike Bradburn, Michael Concannon, and Julia Potter. 2013. “The Effectiveness of Salicylic Acid Plasters Compared with ‘Usual’ Scalpel Debridement of Corns: A Randomised Controlled Trial.” Journal of Foot and Ankle Research 6 (1): 40. https://doi.org/10.1186/1757-1146-6-40."
   },
   {
     "objectID": "two_samples.html",

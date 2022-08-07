@@ -642,13 +642,3 @@ In the 16 patients with corns, 5 patients have corn size of 2 mm; thus, the **mo
 \vspace{20pt}
 
 ## Displaying Numerical Data
-
-The \*\*sample mean\* is calculated as follows:
-
--   Mean: arithmetic average
-
-Population mean $\mu$ is the long-run average (let $n \rightarrow \infty$ in computing $\bar{x}$) + center of mass of the data (balancing point) + highly influenced by extreme values even if they are highly atypical
-
--   Median: middle sorted value, i.e., value such that $\frac{1}{2}$ of the values are below it and above it
-    -   always descriptive
-    -   unaffected by extreme values
