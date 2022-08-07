@@ -652,4 +652,3 @@ Population mean $\mu$ is the long-run average (let $n \rightarrow \infty$ in com
 -   Median: middle sorted value, i.e., value such that $\frac{1}{2}$ of the values are below it and above it
     -   always descriptive
     -   unaffected by extreme values
-    -   not a good measure of central tendency when there are heavy ties in the data

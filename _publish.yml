@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: c2637cb3-4d31-4eb7-8b9d-3088c5675899
+      url: 'https://bougioukas-medstatsjamovi.netlify.app'
