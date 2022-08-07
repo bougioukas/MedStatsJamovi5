@@ -6,9 +6,10 @@ book:
   subtitle: "1st Edition"
   author: 
     - "Konstantinos I. Bougioukas, PhD"
-  date: "August 2, 2022"
-  cover-image: images/cover3.png
-  repo-url: https://github.com/bougioukas/MedStatsJamovi3
+    - "Anna-Bettina Haidich, Associate Professor"
+  date: "August 7, 2022"
+  cover-image: images/cover.png
+  repo-url: https://github.com/bougioukas/MedStatsJamovi5
   sharing: [twitter, facebook]
   chapters:
     - index.qmd
@@ -46,6 +47,7 @@ format:
     theme: cosmo
     link-external-newwindow: true
     code-link: true
+    number-depth: 2
   pdf:
     documentclass: scrbook
     colorlinks: true

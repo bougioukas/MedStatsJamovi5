@@ -86,7 +86,7 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Introduction to Medical Statistics with Jamovi</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/bougioukas/MedStatsJamovi3" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/bougioukas/MedStatsJamovi5" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
     <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
 <li>
@@ -238,8 +238,8 @@ div.csl-indent {
   <li>
 <a href="#types-of-data" id="toc-types-of-data" class="nav-link" data-scroll-target="#types-of-data"> <span class="header-section-number">1.3</span> Types of Data</a>
   <ul class="collapse">
-<li><a href="#categorical-data" id="toc-categorical-data" class="nav-link" data-scroll-target="#categorical-data"> <span class="header-section-number">1.3.1</span> Categorical Data</a></li>
-  <li><a href="#numerical-data" id="toc-numerical-data" class="nav-link" data-scroll-target="#numerical-data"> <span class="header-section-number">1.3.2</span> Numerical Data</a></li>
+<li><a href="#categorical-data" id="toc-categorical-data" class="nav-link" data-scroll-target="#categorical-data">Categorical Data</a></li>
+  <li><a href="#numerical-data" id="toc-numerical-data" class="nav-link" data-scroll-target="#numerical-data">Numerical Data</a></li>
   </ul>
 </li>
   <li><a href="#summarizing-categorical-data" id="toc-summarizing-categorical-data" class="nav-link" data-scroll-target="#summarizing-categorical-data"> <span class="header-section-number">1.4</span> Summarizing Categorical Data</a></li>
@@ -247,7 +247,7 @@ div.csl-indent {
   <li>
 <a href="#summarizing-numerical-data" id="toc-summarizing-numerical-data" class="nav-link" data-scroll-target="#summarizing-numerical-data"> <span class="header-section-number">1.6</span> Summarizing Numerical Data</a>
   <ul class="collapse">
-<li><a href="#measures-of-location" id="toc-measures-of-location" class="nav-link" data-scroll-target="#measures-of-location"> <span class="header-section-number">1.6.1</span> Measures of Location</a></li>
+<li><a href="#measures-of-location" id="toc-measures-of-location" class="nav-link" data-scroll-target="#measures-of-location">Measures of Location</a></li>
   </ul>
 </li>
   <li><a href="#displaying-numerical-data" id="toc-displaying-numerical-data" class="nav-link" data-scroll-target="#displaying-numerical-data"> <span class="header-section-number">1.7</span> Displaying Numerical Data</a></li>
@@ -496,10 +496,9 @@ I --&gt; K[New Knowledge] &amp; Dec[Decisions]
 </table>
 </div>
 <p>In this example since we have 101 patients in each randomized group the percentages are almost the same as the raw counts. However, for most studies we are unlikely to have exactly 100 participants in each group!</p>
-<section id="categorical-data" class="level3" data-number="1.3.1"><h3 data-number="1.3.1" class="anchored" data-anchor-id="categorical-data">
-<span class="header-section-number">1.3.1</span> Categorical Data</h3>
+<section id="categorical-data" class="level3"><h3 class="anchored" data-anchor-id="categorical-data">Categorical Data</h3>
 <p><strong>A. Nominal Data</strong></p>
-<p><strong>Nominal categorical data</strong> are data that one can name and put into categories. They are not measured but simply <strong>counted</strong>. They often consist of <strong>unordered</strong> ‘either–or’ type observations which have two categories and are often know as <strong>binary</strong>. For example: dead or alive; male or female; cured or not cured; pregnant or not pregnant. In <a href="#tbl-corn">Table&nbsp;<span>1.1</span></a> gender is a binary variable. However, nominal categorical data often can have <strong>more that two categories</strong>, for example, blood group A, B, AB, 0; country of origin; ethnic group; eye color. The <a href="#tbl-corn">Table&nbsp;<span>1.1</span></a> gives the number and percentages of people treated at each of the seven centers in each of the two randomized groups.</p>
+<p><strong>Nominal categorical data</strong> are data that one can name and put into categories. They are not measured but simply <strong>counted</strong>. They often consist of <strong>unordered</strong> ‘either–or’ type observations which have two categories and are often know as <strong>binary</strong>. For example: dead or alive; male or female; cured or not cured; pregnant or not pregnant. In <a href="#tbl-corn">Table&nbsp;<span>1.1</span></a> gender is a binary variable. However, nominal categorical data often can have <strong>more than two categories</strong>, for example, blood group A, B, AB, 0; country of origin; ethnic group; eye color. The <a href="#tbl-corn">Table&nbsp;<span>1.1</span></a> gives the number and percentages of people treated at each of the seven centers in each of the two randomized groups.</p>
 <div class="callout-warning callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -530,8 +529,7 @@ Warning
 <p>Ordinal data are often reduced to two categories to simplify analysis and presentation, which may result in a considerable loss of information.</p>
 </div>
 </div>
-</section><section id="numerical-data" class="level3" data-number="1.3.2"><h3 data-number="1.3.2" class="anchored" data-anchor-id="numerical-data">
-<span class="header-section-number">1.3.2</span> Numerical Data</h3>
+</section><section id="numerical-data" class="level3"><h3 class="anchored" data-anchor-id="numerical-data">Numerical Data</h3>
 <p><strong>A. Count (or discrete) Data</strong></p>
 <p><a href="#tbl-corn">Table&nbsp;<span>1.1</span></a> gives details of the number of corns each participant had at the start of the trial, since this can only be a whole number or integer value, for example, 0, 1, 2, or 3 in this trial, this is termed count data. Other examples are often counts per unit of time such as the number of deaths in a hospital per year, the number of visits to the GP in a year, or the number of attacks of asthma a person has per month. In dentistry, a common measure is the number of decayed, filled or missing teeth (DFM).</p>
 <p>The difference between such data as these and the ordered categorical data described earlier can be seen by considering an example of each:</p>
@@ -940,8 +938,7 @@ Warning
 <p>A measure of <strong>location</strong> (where the center of the distribution of the values is located) and <strong>variability</strong> (how widely the values are spread above and below the central value) provides an informative but brief summary of a set of observations.</p>
 </div>
 </div>
-<section id="measures-of-location" class="level3" data-number="1.6.1"><h3 data-number="1.6.1" class="anchored" data-anchor-id="measures-of-location">
-<span class="header-section-number">1.6.1</span> Measures of Location</h3>
+<section id="measures-of-location" class="level3"><h3 class="anchored" data-anchor-id="measures-of-location">Measures of Location</h3>
 <p><strong>A. Sample Mean or Average</strong></p>
 <p>Let <span class="math inline">\(x_1, x_2,...,x_{n-1}, x_n\)</span> be a set of <em>n</em> measurements. The arithmetic sample mean or average, <span class="math inline">\(\bar{x}\)</span> (pronounced x bar), is simply the sum of the observations divided by their number <em>n</em>, thus:</p>
 <p><span class="math display">\[

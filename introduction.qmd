@@ -115,7 +115,7 @@ In this example since we have 101 patients in each randomized group the percenta
 
 **A. Nominal Data**
 
-**Nominal categorical data** are data that one can name and put into categories. They are not measured but simply **counted**. They often consist of **unordered** 'either--or' type observations which have two categories and are often know as **binary**. For example: dead or alive; male or female; cured or not cured; pregnant or not pregnant. In @tbl-corn gender is a binary variable. However, nominal categorical data often can have **more that two categories**, for example, blood group A, B, AB, 0; country of origin; ethnic group; eye color. The @tbl-corn gives the number and percentages of people treated at each of the seven centers in each of the two randomized groups.
+**Nominal categorical data** are data that one can name and put into categories. They are not measured but simply **counted**. They often consist of **unordered** 'either--or' type observations which have two categories and are often know as **binary**. For example: dead or alive; male or female; cured or not cured; pregnant or not pregnant. In @tbl-corn gender is a binary variable. However, nominal categorical data often can have **more than two categories**, for example, blood group A, B, AB, 0; country of origin; ethnic group; eye color. The @tbl-corn gives the number and percentages of people treated at each of the seven centers in each of the two randomized groups.
 
 ::: callout-warning
 **Numerical representation of categories are just codes**
