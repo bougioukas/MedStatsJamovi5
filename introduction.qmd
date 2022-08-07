@@ -577,21 +577,16 @@ If the data are binary and are coded 0 or 1, then $\bar{x}$ is the proportion of
 4.  cannot be determined easily by inspection of the data
 :::
 
-
 \vspace{20pt}
 
 **B. Median**
 
 The **sample median** is an alternative measure of location, which is less sensitive to outliers. For observed values $x_1, x_2,...,x_{n-1}, x_n$ the median is calculated by first sorting the observed values (i.e., arranging them in an ascending/descending order) and selecting the middle one. If the sample size *n* is **odd**, the median is the number at the middle of the sorted observations. If the sample size is **even**, the median is the average of the two middle numbers.
 
-
-
-::: {.callout-note icon="false"} 
-
+::: {.callout-note icon="false"}
 ## **Example: Calculation of the Median - Corn size data (mm)**
 
-
-- **Even observations**
+-   **Even observations**
 
 We have selected 16 baseline corn sizes:
 
@@ -603,14 +598,13 @@ We arrange the data in an ascending order:
 
 As the number of observations are **even** (n=16), the median is the average of the two middle ordered numbers (the eighth and ninth): (3+3)/2=3 mm.
 
-
 \vspace{15pt}
-- **Odd observations**
+
+-   **Odd observations**
 
 Let's say we select an additional 17th subject with corn size of 10 mm, so the data are as following:
 
 **original data:** 2, 2, 6, 3, 4, 2, 2, 5, 3, 4, 1, 2, 6, 3, 10, 3, 10
-
 
 We arrange the data in an ascending order:
 
@@ -618,20 +612,16 @@ We arrange the data in an ascending order:
 
 The median would be the 9th ordered observation, which is also 3 mm.
 
-
 \vspace{15pt}
 
-- **Main Advantages and Disadvantages of median**
+-   **Main Advantages and Disadvantages of median**
 
-The median has the advantage that is not affected by outliers, so for example, the median in the data would be unaffected by replacing the largest corn size of 10 mm with 100 mm. However, it does not take into account the precise value of each observation and hence does not use all information available in the data.
-
+The median has the advantage that is not affected by outliers, so for example, the median in the data would be unaffected by replacing the largest corn size of 10 mm with 100 mm. However, it does not take into account the precise value of each observation and hence does not use all information available in the data.Additionally, it is not a good measure of central tendency when there are heavy ties in the data.
 :::
-
-
 
 \vspace{20pt}
 
-**C. Mode** 
+**C. Mode**
 
 A third measure of location is termed the **mode**. This is the value that occurs **most frequently**, or, if the data are grouped, the grouping with the highest frequency. It is not used much in statistical analysis, since its value depends on the accuracy with which the data are measured and ignores most of the information; although it may be useful for categorical data to describe the most frequent category. Note that some data sets do not have a mode because each value occurs only once.
 
